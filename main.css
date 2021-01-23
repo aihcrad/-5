@@ -1,0 +1,116 @@
+/* გლობ კლას*/
+
+
+.font-ubunti{
+	font-family: "Ubuntu-Light";
+}
+
+.font-playfair{
+	font-family: "PlayfairDisplay-Regular";
+}
+
+.container-wide {
+	width: 88%;
+	margin: auto;
+}
+
+
+
+img{
+	width:100%;
+}
+
+.display-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-around{
+	justify-content: space-around;
+}
+
+.container-small{
+	width: 75%;
+	margin:auto;
+}
+
+
+
+
+
+/* End:გლობ კლას*/
+
+
+#logo-img{
+	width: 140px;
+}
+
+
+body {
+	padding-top: 60px;
+	color: #626262;
+}
+
+nav {
+
+	width: 50%;
+	text-transform: uppercase;
+    color: #626262;
+    font-size: 14px;
+}
+
+main {
+	padding-top: 70px;
+}
+
+
+nav li:hover {
+   color: #000;
+}
+
+
+.main-article-wrapper {
+	margin-top:  98px;
+	margin-bottom: 133px;
+}
+
+.article-category{
+	color: #B4AD9E;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.article-title {
+	font-size: 30px;
+	margin-bottom: 38px;
+}
+
+.article-text{
+	line-height: 24px;
+}
+
+.article-leave-comment{
+	color: #B4AD9E;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 47px;
+
+}
+
+footer {
+	background-color: #f0f0f0;
+	padding: 40px 0px;
+	color: #000;
+}
+
+footer li {
+	padding-left: 18px;
+}
+
+footer li:first-of-type {
+	padding-left: 0px;
+}
